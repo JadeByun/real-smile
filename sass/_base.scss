@@ -6,14 +6,32 @@ $color-blue-dark: #021E73;
 $color-yellow: #F2E205;
 $color-yellow-dark: #F2CB05;
 
-$color-grey-light-1: #f9f7f6;
+$color-grey-light-1: #eee;
 $color-grey-light-2: #aaa;
 
-$color-grey-dark-1: #54483A;
-$color-grey-dark-2: #6D5D4B;
+$color-grey-dark-1: #444;
+$color-grey-dark-2: #222;
 
 // FONT VARIABLES
 $font-title: 'Muli', Sans-Serif;
 // Font-Size: 46px;
 $font-text: 'Merriweather', Serif;
 // Font-Size: 16px;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+    font-family: $font-text;
+    color: 
+}
