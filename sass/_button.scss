@@ -1,0 +1,24 @@
+.btn {
+  align-self: end;
+}
+.btn-inline {
+  border: none;
+  margin-right: 1rem;
+  margin-bottom: .5rem;
+  color: $color-grey-light-1;
+  font-size: inherit;
+  // padding-bottom: 2px;
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .2s;
+
+
+  &:hover {
+      color: $color-yellow-dark;
+  }
+
+  &:focus {
+      outline: none;
+  }
+}
