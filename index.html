@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Mulish:wght@300;400&display=swap" rel="stylesheet">        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        
-        <title>True Job Matching, RealSmile</title>
-    </head>
-    <body class="container">
-        <nav class="nav">
-            <img src="img/logo-h-white-small.png" alt="realsmile logo" class="logo">
-            
-            <!-- non-logged in users -->
-            <div class="btn">
-                <button class="btn-inline">Sign In</button>
-                <button class="btn-inline">Employers</button>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Mulish:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
-            <!-- logged in users -->
-            <!-- <div class="nav__icon-box">
+    <title>True Job Matching, RealSmile</title>
+  </head>
+  <body class="container">
+    <nav class="nav">
+      <img src="img/logo-h-white-small.png" alt="realsmile logo" class="logo" />
+
+      <!-- non-logged in users -->
+      <div class="nav__logged--out">
+        <button class="btn-inline">Sign In</button>
+        <button class="btn-inline">Employers</button>
+      </div>
+
+      <!-- logged in users -->
+      <!-- <div class="nav__logged--in">
                 <svg class="nav__icon">
                     <use xlink:href="img/sprite.svg#icon-bell"></use>
                 </svg>
@@ -32,31 +35,117 @@
                 <img src="img/user.jpg" alt="User photo" class="nav__photo">
                 <span class="nav__name">Jimin</span>
             </div> -->
-        </nav>
+    </nav>
 
-        <header class="header">
-            <div class="header__content">
-                Header Content
-            </div>
-    
-            <div class="header__picture">
-                Header Picture
-            </div>    
-        </header>
+    <header class="header">
+      <div class="header__content">
+        <h1 class="heading-primary u-center-text">
+          True Job Matching, RealSmile
+        </h1>
+        <p>
+          RealSmile.net matches jobs for people who work in the restaurant
+          business. Due to the nature of this industry, work hours vary, which
+          can lead to difficulty in looking for a job. Find the right job by
+          automatically matching with job listings for when they are available.
+          Whether they are looking for temporary or permanent positions, or full
+          time or part time positions. Set your availability now.
+        </p>
+        <div class="u-center-text u-margin-top-small">
+          <a href="#" class="btn btn--green">Start Now</a>
+        </div>
+      </div>
 
-        <section class="search-box">
-            Search box
-        </section>
+      <div class="header__picture">Header Picture</div>
+    </header>
 
-         <!-- only viewed by the logged-in user -->
-        <section class="match-job">
+    <section class="search-box">Search box</section>
 
-        </section>
+    <!-- only viewed by the logged-in user -->
+    <section class="match-job">
+      <h1 class="heading-primary u-center-text">Get Matched Jobs!</h1>
+      <h2 class="heading-secondary u-center-text">
+        based on your availability and location
+      </h2>
 
-        <footer class="footer">
-            Footer
-        </footer>
+      <div class="match-job__boxes u-margin-top-small">
+        <a class="match-job__box" href="#">
+          <div class="match-job__box--detail">
+            <h3 class="match-job__box--title-1">Cook</h3>
+            <p class="match-job__box--text">YYL Restaurant Group</p>
+            <p class="match-job__box--text">Burnaby</p>
+          </div>
+          <div class="match-job__box--wage">
+            <h3 class="match-job__box--title-2">$20</h3>
+            <p class="match-job__box--text">per</p>
+            <p class="match-job__box--text">hour</p>
+          </div>
+        </a>
+        <a class="match-job__box" href="#">
+          <div class="match-job__box--detail">
+            <h3 class="match-job__box--title-1">Cook</h3>
+            <p class="match-job__box--text">YYL Restaurant Group</p>
+            <p class="match-job__box--text">Burnaby</p>
+          </div>
+          <div class="match-job__box--wage">
+            <h3 class="match-job__box--title-2">$20</h3>
+            <p class="match-job__box--text">per</p>
+            <p class="match-job__box--text">hour</p>
+          </div>
+        </a>
+        <a class="match-job__box" href="#">
+          <div class="match-job__box--detail">
+            <h3 class="match-job__box--title-1">Cook</h3>
+            <p class="match-job__box--text">YYL Restaurant Group</p>
+            <p class="match-job__box--text">Burnaby</p>
+          </div>
+          <div class="match-job__box--wage">
+            <h3 class="match-job__box--title-2">$20</h3>
+            <p class="match-job__box--text">per</p>
+            <p class="match-job__box--text">hour</p>
+          </div>
+        </a>
+        <a class="match-job__box" href="#">
+          <div class="match-job__box--detail">
+            <h3 class="match-job__box--title-1">Cook</h3>
+            <p class="match-job__box--text">YYL Restaurant Group</p>
+            <p class="match-job__box--text">Burnaby</p>
+          </div>
+          <div class="match-job__box--wage">
+            <h3 class="match-job__box--title-2">$20</h3>
+            <p class="match-job__box--text">per</p>
+            <p class="match-job__box--text">hour</p>
+          </div>
+        </a>
+        <a class="match-job__box" href="#">
+          <div class="match-job__box--detail">
+            <h3 class="match-job__box--title-1">Cook</h3>
+            <p class="match-job__box--text">YYL Restaurant Group</p>
+            <p class="match-job__box--text">Burnaby</p>
+          </div>
+          <div class="match-job__box--wage">
+            <h3 class="match-job__box--title-2">$20</h3>
+            <p class="match-job__box--text">per</p>
+            <p class="match-job__box--text">hour</p>
+          </div>
+        </a>
+        <a class="match-job__box" href="#">
+          <div class="match-job__box--detail">
+            <h3 class="match-job__box--title-1">Cook</h3>
+            <p class="match-job__box--text">YYL Restaurant Group</p>
+            <p class="match-job__box--text">Burnaby</p>
+          </div>
+          <div class="match-job__box--wage">
+            <h3 class="match-job__box--title-2">$20</h3>
+            <p class="match-job__box--text">per</p>
+            <p class="match-job__box--text">hour</p>
+          </div>
+        </a>
+      </div>
+      <div class="u-center-text u-margin-top-small">
+        <a href="#" class="btn-text">See all matched jobs for you &rarr;</a>
+      </div>
+    </section>
 
-
-    </body>
+    <footer class="footer">Footer</footer>
+  </body>
 </html>
