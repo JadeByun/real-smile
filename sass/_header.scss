@@ -3,9 +3,25 @@
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
 
-  &:__content {
+  &__content {
+    width: 75%;
+    line-height: 2rem;
+    position: relative;
+    align-self: center;
   }
-  &:__picture {
+
+  &__picture {
+    width: 70%;
+    height: 70%;
+    align-self: start;
+
+    &--hero {
+      width: 80%;
+      text-align: center;
+      // transform: translateX(1rem);
+      // margin: 0 auto;
+    }
   }
 }

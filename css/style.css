@@ -24,7 +24,7 @@ body {
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
   min-height: 100vh;
   display: grid;
-  grid-template-rows: min-content 50vh repeat(4, min-content);
+  grid-template-rows: repeat(6, min-content);
   grid-template-columns: [margin-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(6rem, 1fr) [margin-end]; }
 
 body {
@@ -40,7 +40,7 @@ body {
   backface-visibility: hidden;
   margin-bottom: -0.5rem;
   display: block;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.2rem; }
 
@@ -64,16 +64,16 @@ body {
   margin-bottom: 8rem !important; }
 
 .u-margin-top-small {
-  margin-top: 4rem !important; }
+  margin-top: 2rem !important; }
 
 .u-margin-top-medium {
-  margin-top: 6rem !important; }
+  margin-top: 4rem !important; }
 
 .u-margin-top-big {
-  margin-top: 8rem !important; }
+  margin-top: 6rem !important; }
 
 .u-margin-top-huge {
-  margin-top: 10rem !important; }
+  margin-top: 8rem !important; }
 
 .nav {
   background-color: #0528f2;
@@ -84,11 +84,26 @@ body {
   .nav .logo {
     height: 3.25rem;
     padding: 5px; }
+  .nav__logged--out {
+    align-self: end; }
 
 .header {
   grid-column: center-start / center-end;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center; }
+  .header__content {
+    width: 75%;
+    line-height: 2rem;
+    position: relative;
+    align-self: center; }
+  .header__picture {
+    width: 70%;
+    height: 70%;
+    align-self: start; }
+    .header__picture--hero {
+      width: 80%;
+      text-align: center; }
 
 .search-box {
   grid-column: margin-start / margin-end; }
@@ -126,23 +141,6 @@ body {
 .footer {
   grid-column: margin-start / margin-end; }
 
-.btn {
-  align-self: end; }
-
-.btn-radius, .btn-radius:link, .btn-radius:visited {
-  background-color: #021e73;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 1.5rem 4rem;
-  display: inline-block;
-  border-radius: 10rem;
-  transition: all 0.2s;
-  position: relative;
-  font-size: 1.5rem;
-  border: none;
-  cursor: pointer; }
-
 .btn-inline {
   border: none;
   margin-right: 1rem;
@@ -157,6 +155,20 @@ body {
     color: #f2cb05; }
   .btn-inline:focus {
     outline: none; }
+
+.btn-round, .btn-round:link, .btn-round:visited {
+  background-color: #021e73;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.2rem 3rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer; }
 
 .btn-text:link, .btn-text:visited {
   color: #021e73;
